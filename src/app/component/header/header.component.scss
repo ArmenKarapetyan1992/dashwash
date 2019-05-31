@@ -1,0 +1,32 @@
+p{
+    margin-bottom: 0;
+}
+.header{
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.header_right{
+    display: flex;
+    justify-content: space-between;
+}
+.header_right1 select{
+    width: 503px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1.2px #fff;
+    background-color: #0042c5;
+    color: #fff;
+    padding-left: 20px;
+}
+.header_right3, .header_right2{
+    margin-left: 20px;
+    display: flex;
+    align-items: center
+}
+.header_userName{
+    margin-left: 20px;
+}

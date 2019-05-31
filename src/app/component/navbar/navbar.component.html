@@ -1,0 +1,41 @@
+<section class="service active" data-content="1">
+  <div class="service-flex">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+              <a class="nav-link active service_listing" id="home-tab" data-toggle="tab" href="" role="tab" (click)="router.navigate(['/'])"
+                 aria-controls="home"
+                 aria-selected="true">
+                  <div class="car"><img src="images/car.png"></div>
+                  <p>Statistics of cars</p>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link service_listing" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                 aria-controls="profile" aria-selected="false">
+                  <div class="car">
+                      <img src="images/time wash.png">
+                  </div>
+                  <p>Wash time </p>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link service_listing" id="messages-tab" data-toggle="tab" href="#messages" role="tab"
+                 aria-controls="messages" aria-selected="false">
+                  <div class="car">
+                      <img src="images/analytics.png">
+                  </div>
+                  <p>User statistics </p>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link new_service" id="settings-tab" data-toggle="tab" href="#settings" role="tab"
+                 aria-controls="settings" aria-selected="false">
+                  <div class="car">
+                      <span class="far fa-calendar-alt"></span>
+                  </div>
+                  <p> Today’s statistics</p>
+              </a>
+          </li>
+      </ul>
+  </div>
+</section>
